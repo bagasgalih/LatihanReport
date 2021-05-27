@@ -34,7 +34,6 @@
             this.btnBrowse = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.cboSheet = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,19 +90,11 @@
             this.cboSheet.TabIndex = 4;
             this.cboSheet.SelectedIndexChanged += new System.EventHandler(this.cboSheet_SelectedIndexChanged);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(199, 429);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(385, 20);
-            this.textBox1.TabIndex = 5;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(800, 457);
             this.Controls.Add(this.cboSheet);
             this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.txtFileName);
@@ -128,6 +119,5 @@
         private System.Windows.Forms.Button btnBrowse;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cboSheet;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
